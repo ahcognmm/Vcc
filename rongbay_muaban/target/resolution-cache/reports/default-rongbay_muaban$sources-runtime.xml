@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="rongbay_muaban$sources"
+		revision="0.1"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180530141425"/>
+	<dependencies>
+		<module organisation="javax.ws.rs" name="javax.ws.rs-api">
+			<revision name="2.1" status="release" pubdate="20170804221639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jax-rs-spec.java.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="14">
+				<license name="CDDL 1.1" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
+				<license name="GPL2 w/ CPE" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
+				<metadata-artifact status="no" details="" size="4519" time="0" location="/home/ahcogn/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.ws.rs-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="296031" time="0" location="/home/ahcogn/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/srcs/javax.ws.rs-api-2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.containers" name="jersey-container-servlet">
+			<revision name="2.26-b03" status="release" pubdate="20170313195021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36173" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet/ivy-2.26-b03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.26-b03/jersey-container-servlet-2.26-b03.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.26-b03" rev-constraint-default="2.26-b03" rev-constraint-dynamic="2.26-b03" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-container-servlet" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15925" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet/srcs/jersey-container-servlet-2.26-b03-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.26-b03/jersey-container-servlet-2.26-b03-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.containers" name="jersey-container-servlet-core">
+			<revision name="2.26-b03" status="release" pubdate="20170313194353" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36307" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet-core/ivy-2.26-b03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.26-b03/jersey-container-servlet-core-2.26-b03.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.26-b03" rev-constraint-default="2.26-b03" rev-constraint-dynamic="2.26-b03" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-container-servlet-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62523" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.containers/jersey-container-servlet-core/srcs/jersey-container-servlet-core-2.26-b03-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.26-b03/jersey-container-servlet-core-2.26-b03-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.core" name="jersey-server">
+			<revision name="2.26-b03" status="release" pubdate="20170313193316" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="22">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="37280" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.core/jersey-server/ivy-2.26-b03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.26-b03/jersey-server-2.26-b03.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.26-b03" rev-constraint-default="2.26-b03" rev-constraint-dynamic="2.26-b03" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-server" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="877238" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.core/jersey-server/srcs/jersey-server-2.26-b03-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.26-b03/jersey-server-2.26-b03-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.core" name="jersey-client">
+			<revision name="2.26-b03" status="release" pubdate="20170313193550" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36257" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.core/jersey-client/ivy-2.26-b03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.26-b03/jersey-client-2.26-b03.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.26-b03" rev-constraint-default="2.26-b03" rev-constraint-dynamic="2.26-b03" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="133098" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.core/jersey-client/srcs/jersey-client-2.26-b03-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.26-b03/jersey-client-2.26-b03-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.media" name="jersey-media-jaxb">
+			<revision name="2.26-b03" status="release" pubdate="20170313200314" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36478" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.media/jersey-media-jaxb/ivy-2.26-b03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.26-b03/jersey-media-jaxb-2.26-b03.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.26-b03" rev-constraint-default="2.26-b03" rev-constraint-dynamic="2.26-b03" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-media-jaxb" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53103" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.media/jersey-media-jaxb/srcs/jersey-media-jaxb-2.26-b03-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.26-b03/jersey-media-jaxb-2.26-b03-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.core" name="jersey-common">
+			<revision name="2.26-b03" status="release" pubdate="20170313194252" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36949" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.core/jersey-common/ivy-2.26-b03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.26-b03/jersey-common-2.26-b03.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.26-b03" rev-constraint-default="2.26-b03" rev-constraint-dynamic="2.26-b03" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="699391" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.core/jersey-common/srcs/jersey-common-2.26-b03-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.26-b03/jersey-common-2.26-b03-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="hk2-locator">
+			<revision name="2.5.0-b36" status="release" pubdate="20170309055831" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="27684" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/hk2-locator/ivy-2.5.0-b36.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.5.0-b36/hk2-locator-2.5.0-b36.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.5.0-b36" rev-constraint-default="2.5.0-b36" rev-constraint-dynamic="2.5.0-b36" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hk2-locator" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="134138" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/hk2-locator/srcs/hk2-locator-2.5.0-b36-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.5.0-b36/hk2-locator-2.5.0-b36-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.20.0-GA" status="release" pubdate="20150625190935" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3199" time="0" location="/home/ahcogn/.ivy2/cache/org.javassist/javassist/ivy-3.20.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="3.20.0-GA" rev-constraint-default="3.20.0-GA" rev-constraint-dynamic="3.20.0-GA" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javassist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="521842" time="0" location="/home/ahcogn/.ivy2/cache/org.javassist/javassist/srcs/javassist-3.20.0-GA-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="hk2-api">
+			<revision name="2.5.0-b36" status="release" pubdate="20170309055757" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="27382" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/hk2-api/ivy-2.5.0-b36.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.5.0-b36/hk2-api-2.5.0-b36.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.5.0-b36" rev-constraint-default="2.5.0-b36" rev-constraint-dynamic="2.5.0-b36" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hk2-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="274954" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/hk2-api/srcs/hk2-api-2.5.0-b36-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-api/2.5.0-b36/hk2-api-2.5.0-b36-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2.external" name="aopalliance-repackaged">
+			<revision name="2.5.0-b36" status="release" pubdate="20170309055706" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="28030" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/ivy-2.5.0-b36.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b36/aopalliance-repackaged-2.5.0-b36.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.5.0-b36" rev-constraint-default="2.5.0-b36" rev-constraint-dynamic="2.5.0-b36" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="aopalliance-repackaged" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23640" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2.external/aopalliance-repackaged/srcs/aopalliance-repackaged-2.5.0-b36-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.5.0-b36/aopalliance-repackaged-2.5.0-b36-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="hk2-utils">
+			<revision name="2.5.0-b36" status="release" pubdate="20170309055742" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="27494" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/hk2-utils/ivy-2.5.0-b36.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.5.0-b36/hk2-utils-2.5.0-b36.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.5.0-b36" rev-constraint-default="2.5.0-b36" rev-constraint-dynamic="2.5.0-b36" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hk2-utils" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="99861" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/hk2-utils/srcs/hk2-utils-2.5.0-b36-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.5.0-b36/hk2-utils-2.5.0-b36-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.validation" name="validation-api">
+			<revision name="1.1.0.Final" status="release" pubdate="20130410200303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://beanvalidation.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3200" time="0" location="/home/ahcogn/.ivy2/cache/javax.validation/validation-api/ivy-1.1.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="1.1.0.Final" rev-constraint-default="1.1.0.Final" rev-constraint-dynamic="1.1.0.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="validation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="94671" time="0" location="/home/ahcogn/.ivy2/cache/javax.validation/validation-api/srcs/validation-api-1.1.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2" name="osgi-resource-locator">
+			<revision name="1.0.1" status="release" pubdate="20110113220008" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="no" details="" size="3175" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/osgi-resource-locator/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="osgi-resource-locator" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13010" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2/osgi-resource-locator/srcs/osgi-resource-locator-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.annotation" name="javax.annotation-api">
+			<revision name="1.2" status="release" pubdate="20130427003829" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jcp.org/en/jsr/detail?id=250" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html"/>
+				<metadata-artifact status="no" details="" size="4135" time="0" location="/home/ahcogn/.ivy2/cache/javax.annotation/javax.annotation-api/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.annotation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42311" time="0" location="/home/ahcogn/.ivy2/cache/javax.annotation/javax.annotation-api/srcs/javax.annotation-api-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jersey.bundles.repackaged" name="jersey-guava">
+			<revision name="2.26-b03" status="release" pubdate="20170313195839" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="CDDL+GPL License" url="http://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="36161" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/ivy-2.26-b03.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.26-b03/jersey-guava-2.26-b03.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.26-b03" rev-constraint-default="2.26-b03" rev-constraint-dynamic="2.26-b03" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jersey-guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1308836" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.jersey.bundles.repackaged/jersey-guava/srcs/jersey-guava-2.26-b03-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.26-b03/jersey-guava-2.26-b03-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.5" status="release" pubdate="20161217025947" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/ahcogn/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43232" time="0" location="/home/ahcogn/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.hk2.external" name="javax.inject">
+			<revision name="2.5.0-b36" status="release" pubdate="20170309055659" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="28109" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2.external/javax.inject/ivy-2.5.0-b36.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.5.0-b36/javax.inject-2.5.0-b36.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.5.0-b36" rev-constraint-default="2.5.0-b36" rev-constraint-dynamic="2.5.0-b36" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13157" time="0" location="/home/ahcogn/.ivy2/cache/org.glassfish.hk2.external/javax.inject/srcs/javax.inject-2.5.0-b36-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.5.0-b36/javax.inject-2.5.0-b36-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014063500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2506" time="0" location="/home/ahcogn/.ivy2/cache/javax.inject/javax.inject/ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="/home/ahcogn/.ivy2/cache/javax.inject/javax.inject/srcs/javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="9.4.8.v20171121" status="release" pubdate="20171122043154" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8842" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-9.4.8.v20171121.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.8.v20171121/jetty-servlet-9.4.8.v20171121.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="9.4.8.v20171121" rev-constraint-default="9.4.8.v20171121" rev-constraint-dynamic="9.4.8.v20171121" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="65133" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-servlet/srcs/jetty-servlet-9.4.8.v20171121-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.8.v20171121/jetty-servlet-9.4.8.v20171121-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="9.4.8.v20171121" status="release" pubdate="20171122043125" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8477" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-9.4.8.v20171121.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.8.v20171121/jetty-security-9.4.8.v20171121.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="9.4.8.v20171121" rev-constraint-default="9.4.8.v20171121" rev-constraint-dynamic="9.4.8.v20171121" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-security" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69392" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-security/srcs/jetty-security-9.4.8.v20171121-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/9.4.8.v20171121/jetty-security-9.4.8.v20171121-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="9.4.8.v20171121" status="release" pubdate="20171122043051" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="9259" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-9.4.8.v20171121.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.8.v20171121/jetty-server-9.4.8.v20171121.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="9.4.8.v20171121" rev-constraint-default="9.4.8.v20171121" rev-constraint-dynamic="9.4.8.v20171121" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-server" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="360274" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-server/srcs/jetty-server-9.4.8.v20171121-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/9.4.8.v20171121/jetty-server-9.4.8.v20171121-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="9.4.8.v20171121" status="release" pubdate="20171122042851" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8619" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-9.4.8.v20171121.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="9.4.8.v20171121" rev-constraint-default="9.4.8.v20171121" rev-constraint-dynamic="9.4.8.v20171121" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-http" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="99020" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-http/srcs/jetty-http-9.4.8.v20171121-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="9.4.8.v20171121" status="release" pubdate="20171122042823" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8366" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-9.4.8.v20171121.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="9.4.8.v20171121" rev-constraint-default="9.4.8.v20171121" rev-constraint-dynamic="9.4.8.v20171121" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="68756" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-io/srcs/jetty-io-9.4.8.v20171121-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="9.4.8.v20171121" status="release" pubdate="20171122042751" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache Software License - Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<license name="Eclipse Public License - Version 1.0" url="http://www.eclipse.org/org/documents/epl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8859" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-9.4.8.v20171121.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="9.4.8.v20171121" rev-constraint-default="9.4.8.v20171121" rev-constraint-dynamic="9.4.8.v20171121" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jetty-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="322454" time="0" location="/home/ahcogn/.ivy2/cache/org.eclipse.jetty/jetty-util/srcs/jetty-util-9.4.8.v20171121-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.6" status="release" pubdate="20180427154006" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/ahcogn/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="2.12.6" rev-constraint-default="2.12.6" rev-constraint-dynamic="2.12.6" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.6/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="992293" time="0" location="/home/ahcogn/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.1" status="release" pubdate="20111115142705" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8033" time="0" location="/home/ahcogn/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="393048" time="0" location="/home/ahcogn/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.servlet" name="javax.servlet-api">
+			<revision name="4.0.0" status="release" pubdate="20170816005945" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://javaee.github.io/servlet-spec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="CDDL + GPLv2 with classpath exception" url="https://oss.oracle.com/licenses/CDDL+GPL-1.1"/>
+				<metadata-artifact status="no" details="" size="4275" time="0" location="/home/ahcogn/.ivy2/cache/javax.servlet/javax.servlet-api/ivy-4.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.pom"/>
+				<caller organisation="default" name="rongbay_muaban$sources" conf="compile, runtime" rev="4.0.0" rev-constraint-default="4.0.0" rev-constraint-dynamic="4.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javax.servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="240254" time="0" location="/home/ahcogn/.ivy2/cache/javax.servlet/javax.servlet-api/srcs/javax.servlet-api-4.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
